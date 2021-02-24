@@ -65,6 +65,46 @@ h1{
 a{
     text-decoration: none;
 }
+.GameBox{
+    margin-top: 2px;
+    width: 100px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #730D6F;
+    float:left;
+    margin-right:2%;
+}
+.GameBox img{
+    width: 56px;
+    height:56px;
+    margin-left: 20px;
+}
+.GameBox img:hover{
+    opacity: 0.2;
+}
+#Roulette{
+    margin-left: 15%;
+}
+#Rock{
+    background-color: #8f0A88;
+}
+#Coin{
+    margin-right: 40%;
+}
+#Account{
+    color: rgb(231, 231, 231);
+}
+#accountimg{
+    margin-top: 18px;
+    float: left;
+    margin-left: 4px;
+    margin-right:6px ;
+    width: 24px;
+    height: 24px;
+}
+#accountimg:hover{
+    opacity: 0.6;
+}
 body, html {
 	padding: 0;
 	margin: 0;
