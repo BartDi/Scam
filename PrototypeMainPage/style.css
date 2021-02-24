@@ -1,0 +1,157 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #292C34;
+  color: #730D6F;
+  font-family: Asap, sans-serif;
+  z-index: -1;
+}
+nav{
+    position: absolute;
+    margin-top:0;
+}
+#wrap{
+    width: 90%;
+    margin-left: 10%;
+    height: 100%;
+}
+#RouletteCon{
+	width: 100%;
+	height: 1000px;
+	background-color: #120C1A;
+  position: relative;
+}
+#RouCon{
+	width: 800px;
+	height: 600px;
+	margin-right: auto;
+  margin-left: auto;
+  margin-top:100px ;
+	background-color: #120C1A;
+}
+#UppConRou{
+	background-color: #8f0A88;
+}
+#UpperContainer{
+    width:100%;
+    height: 60px;
+    background-color: #292C34;
+    position: absolute;
+    margin-top: 0px;
+}
+.UpperConDiv{
+    background-color: #730D6F;
+    width: 100px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+#acImg{
+  margin-top: 14px;
+  margin-left: 2px;
+
+}
+#account{
+    margin-left: 80%;
+    background-color: #8F0A88;
+    width: 120px;
+    height: 100%;
+    border-radius: 5px;
+    color: white;
+}
+#account h4{
+  float: left;
+  padding-left: 4px;
+  padding-right: 15%;
+}
+.UpperConDiv img{
+  width: 60px;
+  height: 60px;
+  margin-left:20px;
+}
+.UpperConDiv img:hover{
+  opacity: 0.3;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+  height: 1000px;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+#menuToggle a:hover
+{
+  color: black;
+}
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; 
+  z-index: 2; 
+  -webkit-touch-callout: none;
+}
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #730D6F;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+#menu
+{
+  position: absolute;
+  width: 200px;
+  height: 1000px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+#menu li
+{
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 22px;
+}
+#menu li:hover{
+    color:#8F0A88;
+    background-color: #dad6d6;
+}
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}

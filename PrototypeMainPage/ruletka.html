@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Ruletka</title>
+    <link rel="stylesheet" href="ruletka.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#MenuBut").click(function(){
+        $("#LeftNav").toggle();
+      });
+    });
+    </script>
+    <script type="text/javascript">
+    window.onload=function(){
+
+        const figures = [];
+        var rand = Math.floor(Math.random() * 37);
+        for(i = 0; i < 37;i++){
+            figures[i]=i;
+            console.log(figures[i]);
+        }
+        console.log(rand);
+        function rul(){
+            var n1 = document.getElementById('n1');
+            for(i = 0; i < 37;i++){
+            n1.innerHTML=i;
+            if(i%2==0){
+                n1.style.backgroundColor="red";
+            }
+            if(i%2==1){
+                n1.style.backgroundColor="black"
+            }
+            if(i==0)
+                n1.style.backgroundColor="green";
+        }
+        }
+        setTimeout(rul(),1000);
+    }
+        
+    </script>
+</head>
+<body>
+    <div id="UppNav">
+        <div id="MenuBut" onclick="ShowMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a href="#">
+        <div class="GameBox" id="Roulette">
+            <img src="ruletka.png" alt="Ruletka">
+        </div>
+        </a><a href="#">
+            <div class="GameBox" id="Hangman">
+                <img src="wisielec.png" alt="Wisielec">
+            </div>
+        </a><a href="kamien.html">
+            <div class="GameBox" id="Rock">
+                <img src="nozyce.png" alt="KamieńPapier">
+            </div>
+        </a><a href="#">
+            <div class="GameBox" id="Coin">
+                <img src="moneta.png" alt="RzutMonetą">
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="GameBox" id="Account">
+                <img id="accountimg" src="profil.png" alt="Profil">
+                <h3>Konto</h3>
+            </div>
+        </a>
+    </div>
+    <div id="LeftNav">
+        <ul>
+            <a href="#">
+                <li>Strona Główna</li>
+            </a><a href="#">
+                <li>O nas</li>
+            </a><a href="#">
+                <li>Kontakt</li>
+            </a>
+        </a><a href="#">
+            <li>Ustawienia</li>
+        </a>
+    </a><a href="#">
+        <li>Pomoc</li>
+    </a>
+    </a><a href="#">
+        <li>Prześlij opinie</li>
+    </a>
+        </ul>
+    </div>
+    <div id="MainContainer">
+            <div id="RouletteCon">
+                <div id="NumbersCon">
+                    <div class="rouletteNumber" id="n1">1</div>
+                    <div class="rouletteNumber" id="n2">2</div>
+                    <div class="rouletteNumber" id="n3">3</div>
+                    <div class="rouletteNumber" id="n4">4</div>
+                    <div class="rouletteNumber" id="n5">5</div>
+                    <div class="rouletteNumber" id="n6">6</div>
+                    <div class="rouletteNumber" id="n7">7</div>
+                    <div class="rouletteNumber" id="n8">8</div>
+                    <div class="rouletteNumber" id="n9">9</div>
+                    <div class="rouletteNumber" id="n10">10</div>
+                    <div class="rouletteNumber" id="n11">11</div>
+                    <div class="rouletteNumber" id="n12">12</div>
+                    <div class="rouletteNumber" id="n13">13</div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
