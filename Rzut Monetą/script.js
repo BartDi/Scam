@@ -31,30 +31,33 @@ window.onload = function()
         status.innerText = wynik.toUpperCase();
     }
 
-
     function flipCoin() 
     {
+        moneta.setAttribute('class', '');
+        moneta.setAttribute('class', 'Moneta');
         const random = Math.random();
         if(random < 0.5)
         {
             wynik = 'orzel';
-            moneta.setAttribute('class', 'Moneta animacjaFlip-orzel');
+            //moneta.setAttribute('class', 'animacjaFlip-orzel');
         }
 
         else
         {
             wynik = 'reszka';
-            moneta.setAttribute('class', 'Moneta animacjaFlip-reszka');
+            //moneta.setAttribute('class', 'animacjaFlip-reszka');
         }
 
-        //moneta.setAttribute('class', ' Moneta animacjaFlip-' + wynik);
-        Slowdown(Rezultat.bind(null, wynik), 3000);
-        // Slowdown(function() 
-        // {
-        //     Slowdown(Rezultat.bind(null, wynik), 2900);
-        // }, 100);
+        //moneta.setAttribute('class', 'animacjaFlip-' + wynik);
+        //Slowdown(Rezultat.bind(null, wynik), 3000);
+        Slowdown(function() 
+        {
+            moneta.setAttribute('class', 'animacjaFlip-' + wynik);
+            Slowdown(Rezultat.bind(null, wynik), 2900);
+        }, 100);
     }
 
     button.onclick = flipCoin;
     //button.addEventListener('click', flipCoin);
+
 }
