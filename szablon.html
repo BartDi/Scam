@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Ruletka</title>
+    <link rel="stylesheet" href="ruletka.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#MenuBut").click(function(){
+        $("#LeftNav").toggle();
+      });
+    });
+    </script>
+</head>
+<body>
+    <div id="UppNav">
+        <div id="MenuBut" onclick="ShowMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a href="#">
+        <div class="GameBox" id="Roulette">
+            <img src="ruletka.png" alt="Ruletka">
+        </div>
+        </a><a href="#">
+            <div class="GameBox" id="Hangman">
+                <img src="wisielec.png" alt="Wisielec">
+            </div>
+        </a><a href="kamien.html">
+            <div class="GameBox" id="Rock">
+                <img src="nozyce.png" alt="KamieńPapier">
+            </div>
+        </a><a href="#">
+            <div class="GameBox" id="Coin">
+                <img src="moneta.png" alt="RzutMonetą">
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="GameBox" id="Account">
+                <img id="accountimg" src="profil.png" alt="Profil">
+                <h3>Konto</h3>
+            </div>
+        </a>
+    </div>
+    <div id="LeftNav">
+        <ul>
+            <a href="#">
+                <li>Strona Główna</li>
+            </a><a href="#">
+                <li>O nas</li>
+            </a><a href="#">
+                <li>Kontakt</li>
+            </a>
+        </a><a href="#">
+            <li>Ustawienia</li>
+        </a>
+    </a><a href="#">
+        <li>Pomoc</li>
+    </a>
+    </a><a href="#">
+        <li>Prześlij opinie</li>
+    </a>
+        </ul>
+    </div>
+</body>
+</html>
