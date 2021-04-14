@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*! wysokosc i szerokosc maja padding i tym samym nie zwieksza się całkowity rozmiar elementu */
+    box-sizing: border-box;
+}
+body {
+    background-color: #292C34;
+}
+header {
+    background-color: white;
+    padding: 20px;
+}
+header>h1 {
+    color: #25272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+.tablica-wynikow {
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 46px;
+    /*! zaokrąglenie rogów */
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    /*! relative - nie wplywa swoim rozmiarem na rozmiar lub ulozenie pozostalych elementow pozycjonowanie ze wzgledu na krawędzie tego elemetu pozycjonowanie np top let dziala */
+    position: relative;
+
+}
+.gracz {
+    background-color: #E2584D;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+.wynik {
+    font-size: 40px;
+    color: white;
+}
+.wynik>p {
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+.wybory {
+    margin-top: 50px;
+    text-align: center;
+}
+.wybor {
+    /*! układ w jednej lini nie potrzebne float left czy clear both */
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    /*! 0-margines gorny i dolny, 10-margines lewy i prawy */
+    margin: 0 20px;
+    /*! efekt przejścia */
+    transition: all 0.1s ease;
+}
+.wybor:hover {
+    cursor: pointer;
+    background-color: #24272E;
+}
+#akcja-mess {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#user-tab {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#bot-tab {
+    /*! pozycjonowanie wzgledem okna przegladarki nie zadzial przesuwanie np top czy left */
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+#LeftNav ul{
+    margin-left: 15%;
+}
+#Rock{
+    background-color: #8f0A88;
+}
+ 
+ 

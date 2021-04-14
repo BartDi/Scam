@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background: #292C34;
+    color: white;
+    font-family: Asap, sans-serif;
+    color: #730D6F;
+    color: #8f0A88;
+}
+
+#LeftNav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    width: 250px;
+    background-color: #B6C2C0;
+    height: 250px;
+}
+
+#MenuBut {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 50px;
+    height: 20px;
+}
+
+#MenuBut span {
+    margin-bottom: 5px;
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #8f0A88;
+}
+
+#LeftNav ul {
+    margin-top: 40px;
+    list-style-type: none;
+    height: 500px;
+    font-size: 20px;
+}
+
+#LeftNav li {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#LeftNav li:hover {
+    font-size: 21px;
+    color: #8f0A88;
+}
+
+a {
+    text-decoration: none;
+}
+
+.GameBox {
+    margin-top: 20px;
+    width: 300px;
+    height: 260px;
+    border-radius: 5px;
+    background-color: #730D6F;
+    margin-right: 2%;
+    float: left;
+}
+
+.GameBox img {
+    margin-left: 85px;
+    margin-top: 65px
+}
+
+.GameBox img:hover {
+    opacity: 0.2;
+}
+
+#glow {
+    margin: auto;
+    width: 700px;
+    height: 500px;
+}
+
+nav {
+    height: 60px;
+    background-color: #120C1A;
+}
+#Account2{
+    color: rgb(231, 231, 231);
+    float: right;
+}
+.Account2 img{
+    margin-top: 2px;
+    width: 100px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #730D6F;
+    float:left;
+    margin-right:1%;
+}
+#accountimg2{
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+#accountimg2:hover{
+    opacity: 0.6;
+}

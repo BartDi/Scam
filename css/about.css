@@ -1,0 +1,13 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background: #292C34;
+    color: rgb(231, 231, 231);
+}
+.about{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 120%;
+    margin-top: 15%;
+    text-align: center;
+}

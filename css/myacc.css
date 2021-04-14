@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    background-color: #292C34;
+}
+
+.content {
+    height: 60%;
+    width: 50%;
+    margin: auto;
+    background-color: #730D6F;
+}
+
+header>h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+.backinfo {
+    height: 60%;
+    width: 75%;
+    background-image: url("idol.gif");
+    background-size: cover;
+    margin: auto;
+    color: #B6C2C0;
+}
+
+.info {
+    text-align: center;
+    margin: auto;
+    padding: 3%;
+}
+
+.info>h1 {
+    font-size: 200%;
+}

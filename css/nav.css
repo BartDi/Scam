@@ -1,0 +1,101 @@
+#UppNav{
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+    background-color: #120C1A;
+    /* background-color: #1f2127; */
+    top: 0;
+    left: 0;
+}
+#LeftNav{
+    display: none;
+    position: absolute;
+    top: 60px;
+    width: 250px;
+    background-color: #B6C2C0;
+    height: 250px;
+}
+#MenuBut{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 50px;
+    height: 20px;
+}
+#MenuBut span{
+    margin-bottom: 5px;
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #8f0A88;
+}
+#LeftNav ul{
+    font-family: "Roboto", sans-serif;
+    margin-top: 40px;
+    list-style-type: none;
+    height: 250px;
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: center;
+}
+#LeftNav li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#LeftNav li:hover{
+    font-size: 21px;
+    color: #8f0A88;
+}.GameBox{
+    margin-top: 2px;
+    width: 100px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #730D6F;
+    float:left;
+    margin-right:2%;
+}
+.GameBox img{
+    width: 56px;
+    height:56px;
+    margin-left: 20px;
+}
+.GameBox img:hover{
+    opacity: 0.2;
+}
+#Roulette{
+    margin-left: 15%;
+}
+
+#Coin{
+    margin-right: 40%;
+}
+#Account{
+    color: rgb(231, 231, 231);
+    float: right;
+}
+.Account img{
+    margin-top: 2px;
+    width: 100px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #730D6F;
+    float:left;
+    margin-right:1%;
+}
+#accountimg{
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+#accountimg:hover{
+    opacity: 0.6;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
