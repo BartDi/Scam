@@ -57,6 +57,7 @@ We can log in using the left pane, the right pane is for people who do not have 
 The home page (photo 3.1) shows 4 blocks representing the games available on the page, after which we will press on the dedicated games subpages.
 
 4) Games
+
 The first game is a Roulette (Picture 4.1). Clicking on the “Play” button starts the draw, which is shown in the bar above the button. Below the button I find the number and color of the drawing.
 
 The second game is 'Wisielec' (photo 4.2). The game will draw us a lot of passwords and we have to guess them by clicking on each letter. Any wrong answer brings us closer to "saying a person", or a lost one. We can also use a password hint on the website to guide us to a possible password.
