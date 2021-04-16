@@ -1,10 +1,11 @@
+    Projekt SCAM 
 Celem naszego projektu było sprawdzenie naszych umiejętności w praktyce. Projekt zawiera system logowania, rejestracji oraz kilka mniejszych pod stron jako smaczków. Jako główną “atrakcję” stworzyliśmy mini gry, które świetnie działają, lecz były nie lada wyzwaniem. Poniżej znajdziecie opis całej struktury naszego projektu. 
 
 Opis projektu: 
 
 1) Baza Danych 
 
-Do projektu użyliśmy bazy danych MySQL (zdjęcie nr 1.1). Baza przetrzymuje jedynie dane logowania. 
+Do projektu użyliśmy bazy danych MySQL (zdjęcie nr 1.1). Baza przetrzymuje jedynie dane logowania. Hasła są szyfrowane.
 
 2) Logowanie i Rejestracja 
 Po wciśnięciu przycisku w lewym górnym rogu (zdjęcie 2.1) pokaże nam się menu (zdjęcie nr 2.2), za pomocą którego możemy łatwo przejść po różnych podstronach (Kontakt, informacje o autorach, jednej gry bez nakazu zalogowania) naszego projektu. 
