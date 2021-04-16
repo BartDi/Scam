@@ -8,11 +8,13 @@ Opis projektu:
 Do projektu użyliśmy bazy danych MySQL (zdjęcie nr 1.1). Baza przetrzymuje jedynie dane logowania. Hasła są szyfrowane.
 
 2) Logowanie i Rejestracja 
+
 Po wciśnięciu przycisku w lewym górnym rogu (zdjęcie 2.1) pokaże nam się menu (zdjęcie nr 2.2), za pomocą którego możemy łatwo przejść po różnych podstronach (Kontakt, informacje o autorach, jednej gry bez nakazu zalogowania) naszego projektu. 
 
 Zalogować możemy się przy pomocy lewego panelu, prawy jest dla osób, które nie mają konta w naszej usłudze. Panel rejestracji i logowania może wyświetlać kilka komunikatów: o niepoprawnym loginie lub haśle, za krótkich danych do logowania, poprawnym dodaniu nowego konta do bazy danych, zajętej nazwie użytkownika. Po poprawnej rejestracji i/lub zalogowaniu przechodzimy do strony głównej.
 
 3) Strona główna  
+
 Na stronie głównej (zdjęcie nr 3.1) widać 4 bloki reprezentujące gry dostępne na stronie, po których wciśnięciu przejdziemy na podstrony dedykowane grom. 
 
 4) Gry
