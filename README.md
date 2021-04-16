@@ -62,6 +62,7 @@ The first game is a Roulette (Picture 4.1). Clicking on the “Play” button st
 The second game is 'Wisielec' (photo 4.2). The game will draw us a lot of passwords and we have to guess them by clicking on each letter. Any wrong answer brings us closer to "saying a person", or a lost one. We can also use a password hint on the website to guide us to a possible password.
 
 The third game is "paper, stone, shears" (photo 4.3). The icons "stone", "paper" and "shear" are actually buttons that allow you to choose your motion. The game takes place between the player and the computer. The results are displayed above and the game can be played indefinitely.
+
 The fourth game is "Rzut moneta" (photo 4.4). It is the only game you can play without having to log in. When you press the “Start with a coin” button, the coin will begin to rotate and the result of the draw will be shown on the counter below and on the coin itself.
 
 At the very top of each page (except the login page and home page), you will find a navigation bar. On the left side of this bar is a button, when clicked, a menu appears (fig. 5.1) in the middle, a mini homepage, which is a link to other games. On the right, you can access your account.
