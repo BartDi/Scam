@@ -2,13 +2,13 @@
     
 |PL version|    
     
-Celem naszego projektu było sprawdzenie naszych umiejętności w praktyce. Projekt zawiera system logowania, rejestracji oraz kilka mniejszych pod stron jako smaczków. Jako główną “atrakcję” stworzyliśmy mini gry, które świetnie działają, lecz były nie lada wyzwaniem. Poniżej znajdziecie opis całej struktury naszego projektu. 
+Celem naszego projektu było sprawdzenie naszych umiejętności w praktyce. Projekt zawiera system logowania, rejestracji oraz kilka mniejszych pod stron, aby dopełnić całość. Jako główną “atrakcję” stworzyliśmy mini gry, które świetnie działają, lecz były nie lada wyzwaniem. Poniżej znajdziecie opis całej struktury naszego projektu. 
 
 Opis projektu: 
 
 1) Baza Danych 
 
-Do projektu użyliśmy bazy danych MySQL (zdjęcie nr 1.1). Baza przetrzymuje jedynie dane logowania. Hasła są szyfrowane.
+Do projektu użyliśmy bazy danych MySQL (zdjęcie 1.1). Baza przetrzymuje jedynie dane logowania. Hasła są szyfrowane.
 
 2) Logowanie i Rejestracja 
 
@@ -18,19 +18,19 @@ Zalogować możemy się przy pomocy lewego panelu, prawy jest dla osób, które 
 
 3) Strona główna  
 
-Na stronie głównej (zdjęcie nr 3.1) widać 4 bloki reprezentujące gry dostępne na stronie, po których wciśnięciu przejdziemy na podstrony dedykowane grom. 
+Na stronie głównej (zdjęcie 3.1) widać 4 bloki reprezentujące gry dostępne na stronie, po których wciśnięciu przejdziemy na podstrony dedykowane grom. 
 
 4) Gry
 
-Pierwsza gra to ruletka (Zdjęcie 4.1). Kliknięcie w przycisk “Graj” rozpoczyna losowanie, które widać na pasku nad przyciskiem. Pod przyciskiem znajduję się informacja jaka liczba i jaki kolor zostały wylosowane. 
+Pierwsza gra to "Ruletka" (zdjęcie 4.1). Kliknięcie w przycisk “Graj” rozpoczyna losowanie, które widać na pasku nad przyciskiem. Pod przyciskiem znajduję się informacja jaka liczba i jaki kolor zostały wylosowane. 
 
-Druga gra to "Wisielec” (Zdjęcie 4.2). Gra losuje nam hasła, a my klikając poszczególne litery musimy je odgadnąć. Każda błędna odpowiedź zbliża nas do “powieszenia ludzika”, czyli przegranej. Na stronie możemy skorzystać również z podpowiedzi do hasła, która nakieruje nas na możliwe hasło.  
+Druga gra to "Wisielec” (zdjęcie 4.2). Gra losuje nam hasła, a my klikając poszczególne litery musimy je odgadnąć. Każda błędna odpowiedź zbliża nas do “powieszenia ludzika”, czyli przegranej. Na stronie możemy skorzystać również z podpowiedzi do hasła, która nakieruje nas na możliwe hasło.  
 
-Trzecia gra to “Papier, kamień, nożyce” (Zdjęcie 4.3). Ikony “kamienia”, “papieru” i “nożyc” to tak naprawdę przyciski, dzięki którym można wybrać swój ruch. Gra toczy się między graczem, a komputerem. Wyniki są wyświetlane powyżej, a w grę można grać w nieskończoność. 
+Trzecia gra to “Papier, kamień, nożyce” (zdjęcie 4.3). Ikony “kamienia”, “papieru” i “nożyc” to tak naprawdę przyciski, dzięki którym można wybrać swój ruch. Gra toczy się między graczem, a komputerem. Wyniki są wyświetlane powyżej, a w grę można grać w nieskończoność. 
 
-Czwarta gra to “Rzut monetą” (Zdjęcie 4.4). Jest to jedyna gra, w którą można zagrać bez konieczności logowania. Po naciśnięciu w przycisk “Rzuć monetą”, moneta zacznie się obracać, a wynik losowania będzie przedstawiony na liczniku poniżej jak i na samej monecie. 
+Czwarta gra to “Rzut monetą” (zdjęcie 4.4). Jest to jedyna gra, w którą można zagrać bez konieczności logowania. Po naciśnięciu w przycisk “Rzuć monetą”, moneta zacznie się obracać, a wynik losowania będzie przedstawiony na liczniku poniżej jak i na samej monecie. 
 
-Na samej górze każdej strony (z wyjątkiem strony logowania i strony głównej) znajdziemy pasek nawigacji. Po lewej stronie tego paska jest przycisk, po kliknięciu ukazuję się menu (zdj. 5.1), po środku mini wersja strony głównej, czyli odnośniki do innych gier. W prawej części możliwość wejścia na swoje konto.  
+Na samej górze każdej strony (z wyjątkiem strony logowania i strony głównej) znajdziemy pasek nawigacji. Po lewej stronie tego paska jest przycisk, po kliknięciu ukazuję się menu (zdjęcie 5.1), po środku mini wersja strony głównej, czyli odnośniki do innych gier. W prawej części możliwość wejścia na swoje konto.  
 *Warto wspomnieć, że opcje rozwijane są generowane w zależności od stanu zalogowania gracza – widać tam ‘zaloguj’ albo ‘wyloguj’ 
 
 5) Informacje o menu, kontakcie, autorach i koncie 
@@ -40,13 +40,13 @@ Zdjęcie nr 5.1 przedstawia menu użytkownika zalogowanego, pierwsza opcja prowa
 
 |ENG version|
 
-The aim of our project was to test our skills in practice. The project includes a system for logging in, registering and several smaller pages for the same tastes. As the main “attraction”, we have created mini-games that perform well but were not a challenge. Below you will find a description of the entire structure of our project.
+The aim of our project was to test our skills in practice. The project includes a system for logging in, registering and several smaller pages to fill the whole composition. As the main “attraction”, we have created mini-games that perform well but were challenging to create. Below you will find a description of the entire structure of our project.
 
 Project Description:
 
 1) Database
 
- We used the MySQL database (Figure 1.1) for the project. The database only keeps the login information. Passwords are encrypted.
+ We used the MySQL database (photo 1.1) for the project. The database only keeps the login information. Passwords are encrypted.
  
  
 2) Login and Registration When you press the button in the upper left corner (photo 2.1), we will see a menu (photo 2.2), through which we can easily navigate through the various sub-pages (contact, author information, one game without a login request) of our project.
@@ -57,17 +57,16 @@ We can log in using the left pane, the right pane is for people who do not have 
 The home page (photo 3.1) shows 4 blocks representing the games available on the page, after which we will press on the dedicated games subpages.
 
 4) Games
+The first game is a Roulette (photo 4.1). Clicking on the “Play” button starts the draw, which is shown in the bar above the button. Below the button I find the number and color of the drawing.
 
-The first game is a Roulette (Picture 4.1). Clicking on the “Play” button starts the draw, which is shown in the bar above the button. Below the button I find the number and color of the drawing.
+The second game is 'Hang-Man' (photo 4.2). The game will draw us a lot of passwords and we have to guess them by clicking on each letter. Any wrong answer brings us closer to "saying a person", or a lost one. We can also use a password hint on the website to guide us to a possible password.
 
-The second game is 'Wisielec' (photo 4.2). The game will draw us a lot of passwords and we have to guess them by clicking on each letter. Any wrong answer brings us closer to "saying a person", or a lost one. We can also use a password hint on the website to guide us to a possible password.
+The third game is "Rock paper scissors" (photo 4.3). The icons "rock", "paper" and "scissor" are actually buttons that allow you to choose your motion. The game takes place between the player and the computer. The results are displayed above and the game can be played indefinitely.
 
-The third game is "paper, stone, shears" (photo 4.3). The icons "stone", "paper" and "shear" are actually buttons that allow you to choose your motion. The game takes place between the player and the computer. The results are displayed above and the game can be played indefinitely.
-
-The fourth game is "Rzut moneta" (photo 4.4). It is the only game you can play without having to log in. When you press the “Start with a coin” button, the coin will begin to rotate and the result of the draw will be shown on the counter below and on the coin itself.
+The fourth game is "Coin flip" (photo 4.4). It is the only game you can play without having to log in. When you press the “Start with a coin” button, the coin will begin to rotate and the result of the draw will be shown on the counter below and on the coin itself.
 
 At the very top of each page (except the login page and home page), you will find a navigation bar. On the left side of this bar is a button, when clicked, a menu appears (fig. 5.1) in the middle, a mini homepage, which is a link to other games. On the right, you can access your account.
-*it is worth mentioning that the drop-down options are generated depending on the player’s login status – you can see either ‘log in’ or ‘log out’
+*worth mentioning is that the drop-down options are generated depending on the player’s login status – you can see either ‘log in’ or ‘log out’
 
 5) Menu, contact, author, and account information
 
