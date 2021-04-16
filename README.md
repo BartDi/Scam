@@ -44,19 +44,19 @@ The aim of our project was to test our skills in practice. The project includes 
 
 Project Description:
 
-1)Database
+1) Database
 
  We used the MySQL database (Figure 1.1) for the project. The database only keeps the login information. Passwords are encrypted.
  
- 2)
-Login and Registration When you press the button in the upper left corner (photo 2.1), we will see a menu (photo 2.2), through which we can easily navigate through the various sub-pages (contact, author information, one game without a login request) of our project.
+ 
+2) Login and Registration When you press the button in the upper left corner (photo 2.1), we will see a menu (photo 2.2), through which we can easily navigate through the various sub-pages (contact, author information, one game without a login request) of our project.
 
 We can log in using the left pane, the right pane is for people who do not have an account with our service. The Logging and Logging Panel can display several messages: Incorrect logic or password, too short credentials for login, correct addition of new account to the database, occupied username. After we have successfully registered and/or logged in, we will go to the home page.
 
-3)Home page
+3) Home page
 The home page (photo 3.1) shows 4 blocks representing the games available on the page, after which we will press on the dedicated games subpages.
 
-4)Games
+4) Games
 The first game is a Roulette (Picture 4.1). Clicking on the “Play” button starts the draw, which is shown in the bar above the button. Below the button I find the number and color of the drawing.
 
 The second game is 'Wisielec' (photo 4.2). The game will draw us a lot of passwords and we have to guess them by clicking on each letter. Any wrong answer brings us closer to "saying a person", or a lost one. We can also use a password hint on the website to guide us to a possible password.
@@ -67,7 +67,7 @@ The fourth game is "Rzut moneta" (photo 4.4). It is the only game you can play w
 At the very top of each page (except the login page and home page), you will find a navigation bar. On the left side of this bar is a button, when clicked, a menu appears (fig. 5.1) in the middle, a mini homepage, which is a link to other games. On the right, you can access your account.
 *it is worth mentioning that the drop-down options are generated depending on the player’s login status – you can see either ‘log in’ or ‘log out’
 
-5)Menu, contact, author, and account information
+5) Menu, contact, author, and account information
 
 Picture 5.1 shows the menu of the logged-in user, the first option goes to the home page (photo 3.1), the second option to the author information page (photo 5.2), the third option is the page that allows you to contact the service administration (photo 5.3), the last option will log us out and redirect you to the login panel (photo 2.1).
 
