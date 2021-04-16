@@ -2,7 +2,7 @@
     
 |PL version|    
     
-Celem naszego projektu było sprawdzenie naszych umiejętności w praktyce. Projekt zawiera system logowania, rejestracji oraz kilka mniejszych pod stron, aby dopełnić całość. Jako główną “atrakcję” stworzyliśmy mini gry, które świetnie działają, lecz były nie lada wyzwaniem. Poniżej znajdziecie opis całej struktury naszego projektu. 
+Celem naszego projektu było sprawdzenie naszych umiejętności w praktyce. Projekt zawiera system logowania, rejestracji oraz kilka mniejszych podstron, aby dopełnić całość. Jako główną “atrakcję” stworzyliśmy mini gry, które świetnie działają, lecz były nie lada wyzwaniem. Poniżej znajdziecie opis całej struktury naszego projektu. 
 
 Opis projektu: 
 
