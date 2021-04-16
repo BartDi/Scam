@@ -16,6 +16,7 @@ Zalogować możemy się przy pomocy lewego panelu, prawy jest dla osób, które 
 Na stronie głównej (zdjęcie nr 3.1) widać 4 bloki reprezentujące gry dostępne na stronie, po których wciśnięciu przejdziemy na podstrony dedykowane grom. 
 
 4) Gry
+
 Pierwsza gra to ruletka (Zdjęcie 4.1). Kliknięcie w przycisk “Graj” rozpoczyna losowanie, które widać na pasku nad przyciskiem. Pod przyciskiem znajduję się informacja jaka liczba i jaki kolor zostały wylosowane. 
 
 Druga gra to "Wisielec” (Zdjęcie 4.2). Gra losuje nam hasła, a my klikając poszczególne litery musimy je odgadnąć. Każda błędna odpowiedź zbliża nas do “powieszenia ludzika”, czyli przegranej. Na stronie możemy skorzystać również z podpowiedzi do hasła, która nakieruje nas na możliwe hasło.  
